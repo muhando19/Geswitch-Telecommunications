@@ -1,0 +1,61 @@
+.packages-wrapper {
+    display: flex;
+    justify-content: center;
+    filter: brightness(90%);
+    
+}
+
+.packages-wrapper > .packages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -4px;
+}
+
+.packages > .package {
+    margin-top: 40px;
+    margin-bottom: 35px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: dimgrey;
+    height: 270px;
+    width: 290px;
+    border: #11122b solid 2px;
+    border-radius: 20px;
+    box-shadow: 7px 15px 8px rgba(0, 0, 0, 0.58);
+}
+
+.packages > .package > .package-5 {
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.packages > .package > .price {
+    text-align: center;
+}
+
+.packages > .package > .properties {
+    letter-spacing: 2px;
+    line-height: 2em;
+}
+
+
+.packages > .package > .order {
+    text-align: center;
+    font-size: 2em;
+    background-color: #11122b;
+    border-radius: 50px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.packages > .package > .order a {
+    text-decoration: none;
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+
+.packages > .package > .order a:hover {
+    letter-spacing: 2px;
+    color: #cea135;
+}

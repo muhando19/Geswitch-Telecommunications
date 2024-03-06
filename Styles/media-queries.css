@@ -1,0 +1,124 @@
+@media (max-width: 615px) {
+    .navigation-wrapper {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .navigation-wrapper > .left-column {
+        order: 2;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .navigation-wrapper > .center-column {
+        order: 1;
+        width: 100%;
+    }
+
+    .navigation-wrapper > .right-column {
+        order: 3;
+        margin-top: 15px;
+    }
+
+    .links-wrapper {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .links-wrapper > .nav-link{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1.5em;
+        width: 100%;
+    }
+
+    .hero-section {
+        padding: 50px 10px;
+    }
+
+    .hero-section > .bottom-heading {
+        width: 400px;
+        letter-spacing: normal;
+    }
+
+    .hero-section > .lower-heading {
+        margin-bottom: 60px;
+        font-size: 0.5em;
+        
+    }
+
+    .features-section {
+        height: 100%;
+    }
+
+    .features-section > .columns-wrapper{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .packages-wrapper {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .packages-wrapper > .packages {
+        width: 100%;
+    }
+
+    .packages{
+        grid-template-columns: 1fr !important;
+    
+    }
+
+    .packages > .package{
+        width: 100%;
+        align-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .footer {
+        height: 100%;
+    }
+
+    .skewed-header > .skewed-header-wrapper > .skewed-header-content {
+        flex-direction: column;
+    }
+
+    .page-container {
+        padding-left: 21px;
+        padding-right: 21px;
+    }
+
+    .page-container > .content-wrapper > #Float {
+        margin: 0px 0px 25px 0px;
+        width: 100%;
+    }
+    /* Alternatively, add (!important) on each line to overide default specs*/
+
+    .square {
+        grid-template-columns: 1fr !important;
+    }
+
+    .square > .square-text-wrapper {
+        order: 1;
+    }
+
+    .square > .img-wrapper {
+        order: 2;
+    }
+
+    .contact-grid-wrapper {
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+    .form-group input {
+        padding: 1.5rem 0rem;
+    }
+
+    .form-group textarea {
+        padding: 1.5rem 0rem;
+    }
+}
