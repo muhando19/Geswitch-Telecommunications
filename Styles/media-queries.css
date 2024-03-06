@@ -88,9 +88,19 @@
 
     .packages > .package > .order {
         font-size: 2em;
-        margin-top: 15px;
+        margin-top: 10px;
     }
 
+    .packages > .package > .price {
+        font-size: 1em;
+        margin-top: 2px !important;
+    }
+
+    .packages > .package > .properties {
+        line-height: 1.3em;
+        margin-top: 5px;
+    }
+    
     .footer {
         height: 100%;
     }
